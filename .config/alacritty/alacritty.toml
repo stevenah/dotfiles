@@ -1,0 +1,11 @@
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "none"
+opacity = 0.95
+dynamic_padding = false
+
