@@ -1,1 +1,4 @@
 secrets
+.zcompdump
+.claude/
+.zsh_history

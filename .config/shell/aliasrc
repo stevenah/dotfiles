@@ -1,4 +1,10 @@
-ailias ll="ls -la"
+alias ll="ls -la"
 alias l="ls"
+alias gti="git"
+alias code="cursor"
 
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+if [ "$(uname)" = "Darwin" ]; then
+    alias sed="gsed"
+fi
+
+alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'

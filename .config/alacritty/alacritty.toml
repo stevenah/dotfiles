@@ -1,6 +1,4 @@
 
-live_config_reload = true
-
 [env]
 TERM = "xterm-256color"
 
@@ -8,4 +6,7 @@ TERM = "xterm-256color"
 decorations = "none"
 opacity = 0.95
 dynamic_padding = false
+
+[general]
+live_config_reload = true
 
