@@ -28,7 +28,7 @@ for dir in "$DOTFILES"/.config/*/; do
 done
 
 # Link top-level dotfiles
-for file in "$DOTFILES"/.zshenv "$DOTFILES"/.zprofile; do
+for file in "$DOTFILES"/.zshenv "$DOTFILES"/.zprofile "$DOTFILES"/.bash_profile "$DOTFILES"/.bashrc; do
   [ -e "$file" ] && link "$file" "$HOME/$(basename "$file")"
 done
 

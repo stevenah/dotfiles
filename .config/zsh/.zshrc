@@ -25,4 +25,5 @@ export PS1='$_vpn_cache %~ $ '
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 
+autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
